@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class UserServiceTest {
 
-    private UserService userService = new UserService();
+    private final UserService userService = new UserService();
 
     @Test
     public void create() {
